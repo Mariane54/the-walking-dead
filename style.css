@@ -10,7 +10,7 @@
      background-color: #1a1a1a;
  }
  header {
-     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('Opi_27_05_16_Cartaz.jpg');
+     background: linear-gradient url('Opi_27_05_16_Cartaz.jpg');
      background-color: #2d2d2d;
      padding: 40px 20px;
      text-align: center;
