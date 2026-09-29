@@ -3,14 +3,12 @@
      padding: 0;
      box-sizing: border-box;
  }
- /* Corpo e fundo */
  body {
      font-family: 'Arial', sans-serif;
      line-height: 1.6;
      color: #e0e0e0;
      background-color: #1a1a1a;
  }
- /* Cabeçalho */
  header {
      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('');
      background-color: #2d2d2d;
@@ -29,7 +27,6 @@
      font-style: italic;
      font-size: 1.1rem;
  }
- /* Navegação */
  nav {
      background-color: #121212;
      padding: 12px;
@@ -54,7 +51,6 @@
      color: #ffcc00;
      text-decoration: underline;
  }
- /* Conteúdo principal */
  main {
      max-width: 1000px;
      margin: 0 auto;
@@ -77,7 +73,6 @@
      color: #ffcc00;
      font-weight: bold;
  }
- /* Grade de personagens */
  .grade {
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -98,7 +93,6 @@
      color: #ffcc00;
      margin-bottom: 10px;
  }
- /* Lista de spin-offs */
  .lista-spin {
      list-style: none;
      padding-left: 10px;
@@ -107,7 +101,6 @@
      padding: 8px 0;
      border-bottom: 1px dashed #444;
  }
- /* Seção frase */
  .destaque-fundo {
      background-color: #2b0000;
      padding: 30px;
@@ -124,7 +117,6 @@
      color: #999;
      font-style: italic;
  }
- /* Rodapé */
  footer {
      background-color: #121212;
      text-align: center;
